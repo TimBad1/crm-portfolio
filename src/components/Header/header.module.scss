@@ -1,0 +1,22 @@
+@import '../../assets/styles/mixins.scss';
+@import '../../assets/styles/vars.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $colorPrimary;
+    color: $colorWhite;
+
+    @include mobile-down {
+        padding: 20px 15px;
+    }
+
+    @include tablet-middle {
+        padding: 30px 50px;
+    }
+
+    @include desktop-up {
+        padding: 50px 100px;
+    }
+}

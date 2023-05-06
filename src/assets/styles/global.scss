@@ -1,0 +1,63 @@
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  :focus {
+      outline: none;
+    }
+  
+  body {
+    min-width: 320px;
+    margin: 0;
+    position: relative;
+    background-color: #fff;  /* под проект */
+    font-family: "Open Sans", sans-serif;  /* в "" свой шрифт под проект*/
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    line-height: 2em;
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
+  button, input {
+    font: inherit;
+    padding: 0;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  label {
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+  }

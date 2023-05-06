@@ -1,0 +1,16 @@
+@import './assets/styles/normalize.scss';
+@import './assets/styles/fonts.scss';
+@import './assets/styles/global.scss';
+@import './assets/styles/vars.scss';
+
+body {
+  margin: 0;
+  font-family: $base_font_family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
