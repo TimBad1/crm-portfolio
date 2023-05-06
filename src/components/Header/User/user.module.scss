@@ -1,0 +1,32 @@
+@import '../../../assets/styles/vars.scss';
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    &__img,
+    &__bg {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    &__bg {
+        background-color: $colorSecondary;
+        border: 2px solid $colorYellow;
+    }
+
+    &__entry {
+        font-size: $fz-x-large;
+    }
+}
+
+.title {
+    font-size: $fz-large;
+}
+
+.descr {
+    font-size: $fz-x-small;
+}
+

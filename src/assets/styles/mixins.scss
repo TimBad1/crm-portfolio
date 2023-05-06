@@ -1,0 +1,58 @@
+@import './vars.scss';
+
+
+@mixin mobile-down {
+    @media only screen and (max-width: #{$mobileWidth - 1}px) {
+        @content;
+    }
+}
+
+@mixin mobile-up {
+    @media only screen and (min-width: #{$mobileWidth}px) {
+        @content;
+    }
+}
+
+@mixin tablet-middle {
+    @media (min-width: #{$mobileWidth}px) and (max-width: #{$desktopWidth - 1}px) {
+        @content;
+    }
+}
+
+
+@mixin desktop-up {
+    @media (min-width: #{$desktopWidth}px) {
+        @content;
+    }
+}
+
+@mixin desktop-down {
+    @media (max-width: #{$desktopWidth - 1}px) {
+        @content;
+    }
+}
+
+
+// @mixin largeMobile {
+//     @media (min-width: #{$largeMobileWidth}) {
+//         @content;
+//     }
+// }
+
+// @mixin tablet {
+//     @media (max-width: #{$desktopWidth - 1}px) {
+//         @content;
+//     }
+// }
+
+// @mixin desktop {
+//     @media (min-width: #{$desktopWidth}px) {
+//         @content;
+//     }
+// }
+
+// @mixin largeDesktop {
+//     @media (min-width: #{$largeDesktopWidth}px) {
+//         @content;
+//     }
+// }

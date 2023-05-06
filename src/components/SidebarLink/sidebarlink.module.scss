@@ -1,0 +1,29 @@
+@import '../../assets/styles/vars.scss';
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: $fz-large;
+    
+    .img {
+        max-width: 2em;
+        max-height: 2em;
+        object-fit: contain;
+    }
+}
+
+.link-active {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: $fz-large;
+    color: $colorYellow;
+    
+    .img {
+        max-width: 2em;
+        max-height: 2em;
+        object-fit: contain;
+        opacity: .6;
+    }
+}

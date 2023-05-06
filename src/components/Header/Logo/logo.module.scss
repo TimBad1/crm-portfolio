@@ -1,0 +1,12 @@
+@import '../../../assets/styles/mixins.scss';
+
+.logo {
+    height: auto;
+
+    @include mobile-down {
+        width: 60px;
+    }
+    @include mobile-up {
+        width: 120px;
+    }
+}
