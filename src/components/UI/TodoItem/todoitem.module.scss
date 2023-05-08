@@ -1,3 +1,4 @@
+@import '../../../assets/styles/vars.scss';
 .item {
     display: flex;
     align-items: center;
@@ -36,38 +37,38 @@
 }
 
 .color-1 {
-    background-color:#6F9FD8;
+    background-color: $colorViolet;
 }
 .color-2 {
-    background-color: #E94B3C;
+    background-color: $colorMeadowlark;
 }
 .color-3 {
-    background-color: rgb(17, 152, 17);
+    background-color: $colorTomato;
 }
 .color-4 {
-    background-color: #6B5B95;
+    background-color: $colorBoyBlue;
 }
 .color-5 {
-    background-color: #ECDB54;
+    background-color: $colorOil;
 }
 .color-6 {
-    background-color: #944743;
+    background-color: $colorLavender;
 }
 .color-7 {
-    background-color: #DBB1CD;
+    background-color: $colorDahlia;
 }
 .color-8 {
-    background-color: #EC9787;
+    background-color: $coloArcadia;
 }
 .color-9 {
-    background-color: #00A591;
+    background-color: $colorEmperador;
 }
 .color-10 {
-    background-color: #6C4F3D;
+    background-color: $colorMauve;
 }
 .color-11 {
-    background-color: #EADEDB;
+    background-color: $colorCrocus;
 }
 .color-12 {
-    background-color: #BC70A4;
+    background-color: $colorLime;
 }

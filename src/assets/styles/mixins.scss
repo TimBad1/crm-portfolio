@@ -1,36 +1,56 @@
 @import './vars.scss';
 
-
+// <600
 @mixin mobile-down {
     @media only screen and (max-width: #{$mobileWidth - 1}px) {
         @content;
     }
 }
 
+// 600+
 @mixin mobile-up {
     @media only screen and (min-width: #{$mobileWidth}px) {
         @content;
     }
 }
 
+//600-1200
 @mixin tablet-middle {
     @media (min-width: #{$mobileWidth}px) and (max-width: #{$desktopWidth - 1}px) {
         @content;
     }
 }
 
+//600-900
+@mixin tablet-only {
+    @media (min-width: #{$mobileWidth}px) and (max-width: #{$tabletWidth - 1}px) {
+        @content;
+    }
+}
 
+//900+
+@mixin tablet-up {
+    @media (min-width: #{$tabletWidth}px) {
+        @content;
+    }
+}
+// <1200
+@mixin desktop-down {
+    @media (max-width: #{$desktopWidth - 1}px) {
+        @content;
+    }
+}
+
+// 1200+
 @mixin desktop-up {
     @media (min-width: #{$desktopWidth}px) {
         @content;
     }
 }
 
-@mixin desktop-down {
-    @media (max-width: #{$desktopWidth - 1}px) {
-        @content;
-    }
-}
+
+
+
 
 
 // @mixin largeMobile {

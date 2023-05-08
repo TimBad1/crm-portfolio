@@ -14,7 +14,7 @@ export function TodoItem({title, colorId, isActive}: ITodoItems) {
     styles.item,
     isActive ? '' : styles.done,
   )
-  console.log(colorId);
+
   return (
     <div className={classItem}>
       <div className={styles[`color-${colorId}`]} />

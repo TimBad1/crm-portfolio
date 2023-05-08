@@ -9,9 +9,10 @@ interface ICustomLink {
 
 export function SidebarLink({name, icon, link}: ICustomLink) {
   return (
-    <NavLink to={link} className={({isActive}) => isActive ? styles['link-active'] : styles.link }>
+    <NavLink to={link} className={({isActive}) => styles.link + (isActive ? ' ' + styles['link-active'] : '') }>
       <img src={icon} alt={name} className={styles.img} />
-      {name}
+      <span>{name}</span>
+      
     </NavLink>
   );
 }

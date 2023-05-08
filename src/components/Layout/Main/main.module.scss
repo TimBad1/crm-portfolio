@@ -6,20 +6,4 @@
     background-color: $colorSecondary;
     color: $colorPrimary;
     border: 1px solid $colorPrimary;
-
-    @include mobile-down {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    @include tablet-middle {
-        padding-right: 50px;
-        padding-left: 50px;
-
-    }
-
-    @include desktop-up {
-        padding-right: 100px;
-        padding-left: 100px;
-    }
 }
